@@ -1,0 +1,58 @@
+
+.container {
+    width: 700px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.exchange-country-name {
+    color: #828c93;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.input-value {
+    width: 190px;
+    border: 1px solid #dbe1e6;
+    border-radius: 2px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: right;
+    margin: 0 12px 20px 0;
+    vertical-align: middle;
+    background-color: #ffffff;
+    line-height: 1.428571429;
+    padding: 8px 12px;
+}
+
+.select {
+    top: -9px;
+    height: 40px;
+    border: 1px solid #dbe1e6;
+    border-radius: 2px;
+    background-color: #f6fbff;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    text-align: left;
+    white-space: nowrap;
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.button {
+    top:-40px;
+    margin: 20px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: none;
+    vertical-align: middle;
+    position: relative;
+}
+.button:focus {
+    outline: none;
+}
