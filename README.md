@@ -1,19 +1,9 @@
-# [汇率计算器组件 By React](https://api.leoyancey.com/currency_exchange/root.html)
+# [Exchange Rate Calculator by React](https://api.leoyancey.com/currency_exchange/root.html)
 
 ## Introduction
 
-- 学习React时设计的一个小挑战；
+The tiny program was designed when I started learning react. When the program starts running, it will automatically call the interface of the `exchange rate api` and the `full/short name of currency api`. The program shows the dollar-euro exchange rate by default. When you choose other currency by the `select tag`, the real-time exchange rate will change immediately. You can also input amount in the `input tag` , the other `input tag` will be calculate in real time. Moreover, once you click on the `exchange button`, the exchange rate and the value you enter will also be exchanged.
 
-- 通过fetch调用「汇率API」和「货币全、简称API」；
+## License
 
-- 默认展示美元-欧元汇率信息；
-
-- 当用户通过select标签选择其他币种，实时汇率会发生改变；
-
-- 用户在一个input标签输入金额，另一个input标签会根据汇率实时显示对应的面值；
-
-- 用户点击「交换」按钮，两种货币将会发生置换、其中输入的面值、实时汇率也会同时发生改变。
-
-## Privacy Policy
-
-Copyright © 2018 Yancey Inc. All rights reserved.
+Exchange Rate Calculator is [MIT licensed](https://opensource.org/licenses/MIT).
